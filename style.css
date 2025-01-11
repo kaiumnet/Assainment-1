@@ -143,6 +143,8 @@ font-weight: bold;
   margin-top: 20px;
   background-image: url('./Images/quote-bg.png');
   background-repeat: no-repeat;
+  background-position: 10px 10px;
+
 }
 
 
@@ -162,7 +164,6 @@ font-weight: bold;
   display: flex;
   justify-content: space-between;
   background-color: #7ed6df;
-  padding: 5px 20px;
   border: 1px solid #95afc0;
 }
 
@@ -182,7 +183,6 @@ padding: 5px 10px;
 
 
 
-
 .Date-Time{
   display: flex;
   justify-content: flex-start;
@@ -193,7 +193,7 @@ padding: 5px 10px;
 .satellite-option-1{
   display: flex;
   gap: 20px;
-  background-color: #dcdde1;
+  background-color: #dffafa;
   margin: 20px;
   border-radius: 15px;
   padding: 20px;
@@ -208,10 +208,45 @@ padding: 5px 10px;
   font-weight: bold;
 }
 
-
-
 .sa-pic{
   border-radius: 20px;
+}
+
+.Recent-News{
+  padding: 5px 30px;
+  margin-top: 20px;
+}
+
+.news-images{
+  border-radius: 20px;
+}
+
+
+/* Donate option */
+
+
+.Donate{
+  text-align: center;
+  padding: 0 40px;
+}
+
+.amount-div{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 30px;
+}
+
+.amount{
+  box-shadow: 0 2px 50px 0 #bdc3c7;
+  padding: 45px 60px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 24px;
+  border: 1px solid #c8d6e5;
+}
+
+.bg-color{
+  background-color: #f7d794;
 }
 
 
