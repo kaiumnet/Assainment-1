@@ -13,6 +13,10 @@ main{
   margin: 0 auto;
 }
 
+p{
+  color: #576574;
+}
+
 
 /* nav bar */
 
@@ -71,6 +75,11 @@ main{
   padding: 15px 20px;
   border-radius: 5px;
   border: none;
+}
+
+button:hover{
+  background-color: #b8e994;
+  cursor: pointer;
 }
 
 
@@ -165,6 +174,7 @@ font-weight: bold;
   justify-content: space-between;
   background-color: #7ed6df;
   border: 1px solid #95afc0;
+  padding: 0 10px;
 }
 
 
@@ -173,10 +183,7 @@ font-weight: bold;
   justify-content: space-between;
   border-left: 1px solid #535c68;
   border-bottom: 1px solid #535c68;
-}
-
-.Select{
-padding: 5px 10px;
+  padding: 0 5px 0 5px;
 }
 
 
@@ -238,11 +245,12 @@ padding: 5px 10px;
 
 .amount{
   box-shadow: 0 2px 50px 0 #bdc3c7;
-  padding: 45px 60px;
+  padding: 35px 40px;
   border-radius: 10px;
   font-weight: 800;
   font-size: 24px;
   border: 1px solid #c8d6e5;
+  
 }
 
 .bg-color{
@@ -258,26 +266,39 @@ padding: 5px 10px;
   border: 1px solid #d2dae2;
 }
 
-.Donate-btn{
+.amount-area{
+  text-align: center;
+}
+
+.donate-button{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.donate-btn{
+  color: white;
+  padding: 10px 30px;
   background-color: #218c74;
-  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 
 .subscribe-news{
   text-align: center;
-  background-color: #82ccdd;
+  background-color: #c7ecee;
   padding: 20px;
-  border-radius: 5px;
-  margin-top: 20px;
+  border-radius: 10px;
+  margin: 50px 20px;
 }
 
 .Subscribe{
   width:500px;
   padding: 10px 20px;
-  border-radius: 5px;
   text-align: center;
   border: 1px solid #d2dae2;
+  margin: 0;
 }
 
 .subscribe-area{
@@ -285,9 +306,13 @@ padding: 5px 10px;
 }
 
 .subscribe-btn{
+  color: white;
   background-color: #218c74;
   padding: 10px 35px;
-  border-radius: 10px;
+  margin-left: 0;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  font-weight: bold;
 }
 
 .last-text{
