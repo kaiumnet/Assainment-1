@@ -13,6 +13,10 @@ main{
   margin: 0 auto;
 }
 
+h1{
+  font-weight: 800;
+}
+
 p{
   color: #576574;
 }
@@ -187,7 +191,7 @@ font-weight: bold;
 }
 
 
-
+/* Recent News option*/
 
 
 .Date-Time{
@@ -215,9 +219,7 @@ font-weight: bold;
   font-weight: bold;
 }
 
-.sa-pic{
-  border-radius: 20px;
-}
+
 
 .Recent-News{
   padding: 5px 30px;
@@ -241,6 +243,11 @@ font-weight: bold;
   display: flex;
   justify-content: space-around;
   margin: 10px 30px;
+}
+
+.amount:hover{
+  background-color: #218c74;
+  cursor: pointer;
 }
 
 .amount{
@@ -283,6 +290,9 @@ font-weight: bold;
   border-radius: 5px;
   font-weight: bold;
 }
+
+
+/* subscribe area*/
 
 
 .subscribe-news{
